@@ -44,7 +44,7 @@ virtual shell eco-marathon autonomous competition.
     roslaunch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch
     ```
     
-# CARLA Rendering options
+## CARLA Rendering options
 - https://carla.readthedocs.io/en/latest/adv_rendering_options/#rendering-options
 - Graphics Quality
 	- Epic mode by default: ./CarlaUE4.sh -quality-level=Epic
