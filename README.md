@@ -55,3 +55,7 @@ virtual shell eco-marathon autonomous competition.
 		- cd PythonAPI/util && python3 config.py --rendering
 - Off-screen mode
 	- ./CarlaUE4.sh -RenderOffScreen
+
+## Changing maps in CARLA
+1. ./CarlaUE4.sh
+2. In another terminal go to PythonAPI/util and launch: python3 config.py -m Town03
