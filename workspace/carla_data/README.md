@@ -9,10 +9,12 @@ cd /path/carla_data
 catkin_make
 ```
 
-run:
+run (need to start ROS bridge first):
 ```
 cd /path/carla_data
 source devel/setup.bash
-rosrun carla_data image_subscriber.py
-rosrun carla_data pointcloud_subcriber
+# visualize images in opencv
+rosrun carla_data image_subscriber.py 
+# visualize pointclouds in rviz
+rosrun carla_data pointcloud_subscriber
 ```
