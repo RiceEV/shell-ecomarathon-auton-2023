@@ -43,3 +43,15 @@ virtual shell eco-marathon autonomous competition.
     # Option 2: start the ros bridge together with an example ego vehicle
     roslaunch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch
     ```
+    
+# CARLA Rendering options
+- https://carla.readthedocs.io/en/latest/adv_rendering_options/#rendering-options
+- Graphics Quality
+	- Epic mode by default: ./CarlaUE4.sh -quality-level=Epic
+	- Low mode (we are going to use this one): ./CarlaUE4.sh -quality-level=Low
+- No-rendering mode
+	- To disable and enable rendering via the command line, run the following commands:
+		- cd /opt/carla-simulator/PythonAPI/util && python3 config.py --no-rendering
+		- cd PythonAPI/util && python3 config.py --rendering
+- Off-screen mode
+	- ./CarlaUE4.sh -RenderOffScreen
