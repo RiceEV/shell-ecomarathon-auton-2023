@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/rev/Documents/GitHub/shell-ecomarathon-auton-2023/workspace/competition_code/build/gtest/lib ../lib/libgtest.so -lpthread 

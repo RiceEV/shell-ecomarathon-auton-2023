@@ -1,0 +1,8 @@
+prefix=/home/rev/Documents/GitHub/shell-ecomarathon-auton-2023/workspace/competition_code/devel
+
+Name: shell_simulation
+Description: Description of shell_simulation
+Version: 0.0.0
+Cflags: -I/home/rev/Documents/GitHub/shell-ecomarathon-auton-2023/workspace/competition_code/src/shell_simulation/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs
